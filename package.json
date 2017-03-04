@@ -1,0 +1,22 @@
+{
+  "name": "is-odd",
+  "version": "0.0.1",
+  "description": "Function checks if given value is Odd or not",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && npm run unit",
+    "unit": "mocha test",
+    "lint": "eslint ."
+  },
+  "bin": {
+    "fsn": "./bin/isvalueodd"
+  },
+  "author": "Alex Omelchenko",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.17.0",
+    "eslint-config-airbnb-base": "^11.1.1",
+    "eslint-plugin-import": "^2.2.0",
+    "mocha": "^3.2.0"
+  }
+}
