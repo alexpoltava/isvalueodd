@@ -1,6 +1,6 @@
 {
   "name": "is-value-odd",
-  "version": "0.0.5",
+  "version": "0.0.4",
   "description": "Function checks if given value is Odd or not",
   "main": "index.js",
   "scripts": {
@@ -19,8 +19,8 @@
     "eslint-plugin-import": "^2.2.0",
     "mocha": "^3.2.0"
   },
-  "repository" : {
-     "type" : "git",
-     "url" : "https://github.com/alexpoltava/isvalueodd.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexpoltava/isvalueodd.git"
   }
 }
