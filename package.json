@@ -1,6 +1,6 @@
 {
   "name": "is-value-odd",
-  "version": "0.0.4",
+  "version": "0.0.3",
   "description": "Function checks if given value is Odd or not",
   "main": "index.js",
   "scripts": {
