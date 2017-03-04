@@ -8,6 +8,9 @@ describe('Basic check', function() {
     it('should check Odd properly', function() {
         assert.equal(isValueOdd(1), true, 'Fail');
     });
+    it('should handle Zero properly', function() {
+        assert.equal(isValueOdd(0), false, 'Fail');
+    });
     it('should handle Object properly', function() {
         assert.throws(() => isValueOdd({a: 'hello'}), Error, 'Fail');
     });

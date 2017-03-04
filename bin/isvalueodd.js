@@ -2,4 +2,4 @@
 
 const isValueOdd = require('..');
 
-console.log(Boolean(isValueOdd(process.argv[2])));
+console.log(isValueOdd(process.argv[2]));
