@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-const isOdd = require('..');
+const isValueOdd = require('..');
 
-console.log(Boolean(isOdd(process.argv[2])));
+console.log(Boolean(isValueOdd(process.argv[2])));
