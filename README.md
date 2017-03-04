@@ -14,10 +14,14 @@ $ npm i --save is-value-odd
 
 ## Usage
 
+Using module:
 ```js
 const isValueOdd = require('is-value-odd');
 
 isValueOdd(value);
+```
 
-value: value you want to check.
+Using shell:
+```shell
+$ isvalueodd value
 ```
