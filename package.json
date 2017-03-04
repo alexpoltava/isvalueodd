@@ -9,7 +9,7 @@
     "lint": "eslint ."
   },
   "bin": {
-    "fsn": "./bin/isvalueodd"
+    "fsn": "./bin/isvalueodd.js"
   },
   "author": "Alex Omelchenko",
   "license": "ISC",
