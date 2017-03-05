@@ -17,6 +17,9 @@ describe('Basic check', function() {
     it('should handle Function properly', function() {
         assert.throws(() => isValueOdd(function() { return true; }), Error, 'Fail');
     });
+    it('should handle Array properly', function() {
+        assert.throws(() => isValueOdd([1, 2, 3]), Error, 'Fail');
+    });
     it('should handle Empty value', function() {
         assert.throws(() => isValueOdd(), Error, 'Fail');
     });
