@@ -1,7 +1,7 @@
 # is-value-odd
 
 Performs checking if passed value is odd or not.
-Returns 'true' if value is odd, otherwise 'false'.
+Returns `true` if value is odd, otherwise `false`.
 Floors float numbers, throws error if value is not a number.
 
 ## Installation
@@ -18,7 +18,7 @@ Using module:
 ```js
 const isValueOdd = require('is-value-odd');
 
-isValueOdd(value);
+const result = isValueOdd(value);
 ```
 
 Using shell:
