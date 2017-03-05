@@ -3,7 +3,7 @@ const isValueOdd = require('..');
 
 describe('Basic check', function() {
     it('should check Even properly', function() {
-        assert.equal(isValueOdd(0), false, 'Fail');
+        assert.equal(isValueOdd(2), false, 'Fail');
     });
     it('should check Odd properly', function() {
         assert.equal(isValueOdd(1), true, 'Fail');
